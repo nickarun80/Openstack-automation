@@ -6,7 +6,7 @@
   - name: Create a new instance and attaches to a network and passes metadata to the instance
     os_server:
        state: present
-       name: vm2
+       name: vm3
        image: "Ubuntu-18.04"
        key_name: AR-AD
        timeout: 200
