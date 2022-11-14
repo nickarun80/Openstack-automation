@@ -7,7 +7,7 @@
     os_server:
        state: present
        name: vm1
-       image: "Ubuntu-20.04"
+       image: "Ubuntu-18.04"
        key_name: AR-AD
        timeout: 200
        flavor: 387eba78-858d-46f4-83c7-678abc0596e3
@@ -16,3 +16,48 @@
        security_groups: default
        meta:
          os: ubuntu
+
+  tasks:
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: vm1
+       image: "Ubuntu-18.04"
+       key_name: AR-AD
+       timeout: 200
+       flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+       auto_ip: no
+       network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+       security_groups: default
+       meta:
+         os: ubuntu
+
+  tasks:
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: vm1
+       image: "Ubuntu-18.04"
+       key_name: AR-AD
+       timeout: 200
+       flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+       auto_ip: no
+       network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+       security_groups: default
+       meta:
+         os: ubuntu
+
+  tasks:
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: vm1
+       image: "Ubuntu-18.04"
+       key_name: AR-AD
+       timeout: 200
+       flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+       auto_ip: no
+       network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+       security_groups: default
+       meta:
+         os: ubuntu               
