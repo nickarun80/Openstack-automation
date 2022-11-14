@@ -7,7 +7,7 @@
     os_server:
        state: present
        name: vm1
-       image: "images/Ubuntu-20.04"
+       image: "Ubuntu-20.04"
        key_name: AR-AD
        timeout: 200
        flavor: 387eba78-858d-46f4-83c7-678abc0596e3
