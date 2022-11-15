@@ -43,5 +43,5 @@
        network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
        security_groups: default
        meta:
-         os: ubunt               
+         os: ubuntu             
 
