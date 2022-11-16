@@ -1,27 +1,27 @@
 server_definitions:
  U-VDI-1:
-  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
-  ssh_key_name: automation-key
-  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
-  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
-  security_groups: devzero_trust
+  image: Ubuntu-18.04
+  ssh_key_name: AR-AD
+  flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+  network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+  security_groups: default
   tags: 
     os: ubuntu
 
  U-VDI-2:
-  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
-  ssh_key_name: automation-key
-  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
-  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
-  security_groups: devzero_trust
+  image: Ubuntu-18.04
+  ssh_key_name: AR-AD
+  flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+  network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+  security_groups: default
   tags: 
     os: ubuntu
 
  U-VDI-3:
-  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
-  ssh_key_name: automation-key
-  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
-  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
-  security_groups: devzero_trust
+  image: Ubuntu-18.04
+  ssh_key_name: AR-AD
+  flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+  network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+  security_groups: default
   tags: 
     os: ubuntu
