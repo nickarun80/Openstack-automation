@@ -1,7 +1,7 @@
 server_definitions:
  U-VDI-1:
   Snapshot: vdi
-  flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+  flavor: 7a794dea-faa2-4948-bf4d-3db8beba3bba
   network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
   security_groups: default
   tags: 
@@ -9,7 +9,7 @@ server_definitions:
 
  U-VDI-2:
   Snapshot: vdi
-  flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+  flavor: 7a794dea-faa2-4948-bf4d-3db8beba3bba
   network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
   security_groups: default
   tags: 
@@ -17,7 +17,7 @@ server_definitions:
 
  U-VDI-3:
   Snapshot: vdi
-  flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+  flavor: 7a794dea-faa2-4948-bf4d-3db8beba3bba
   network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
   security_groups: default
   tags: 
