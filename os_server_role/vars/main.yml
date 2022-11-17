@@ -4,7 +4,6 @@ server_definitions:
   flavor: 387eba78-858d-46f4-83c7-678abc0596e3
   network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
   security_groups: default
-  wait_seconds: 5
   tags: 
     os: ubuntu
 
@@ -13,7 +12,6 @@ server_definitions:
   flavor: 387eba78-858d-46f4-83c7-678abc0596e3
   network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
   security_groups: default
-  wait_seconds: 5
   tags: 
     os: ubuntu
 
@@ -22,6 +20,5 @@ server_definitions:
   flavor: 387eba78-858d-46f4-83c7-678abc0596e3
   network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
   security_groups: default
-  wait_seconds: 5
   tags: 
     os: ubuntu
