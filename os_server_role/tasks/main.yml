@@ -2,7 +2,7 @@
   os_server:
     name: "{{  item.key }}"
     state: present
-    Snapshot: "{{  item.value.Snapshot }}"
+    image: "{{  item.value.image }}"
 #    key_name: "{{  item.value.ssh_key_name }}"
     timeout: 200
     flavor: "{{  item.value.flavor }}"
