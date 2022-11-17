@@ -10,5 +10,5 @@
     network: "{{  item.value.network }}"
     security_groups: "{{  item.value.security_groups }}"
     meta: "{{  item.value.tags }}"
-    wait_seconds: "{{  item.value.wait_seconds }}"
+    wait_seconds: 5
   with_dict: "{{ server_definitions }}"
