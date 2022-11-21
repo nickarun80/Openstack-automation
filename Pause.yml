@@ -4,4 +4,4 @@
   tasks:
   - name: Pause
     pause:
-      seconds: 5
+      seconds: 10
