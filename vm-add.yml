@@ -1,7 +1,6 @@
 ---
 - name: AR-OPS-AUTO
   hosts: localhost
-  
   tasks:
   - name: VM-4
     os_server:
