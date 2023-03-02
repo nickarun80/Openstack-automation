@@ -1,5 +1,5 @@
 ---
-- name: Testing initial on devzero.edu
+- name: Testing initial
   hosts: localhost
   
   tasks:
@@ -15,16 +15,3 @@
        network: 39bd5a63-4a33-46bb-86ce-351baeb56d7b
        meta:
          os: ubuntu
-
-  - name: Add second Server
-    os_server:
-       state: present
-       name: vm2
-       image: "Ubuntu-20.04"
-       key_name: automation-key
-       timeout: 200
-       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
-       auto_ip: no
-       network: 4617bcd2-1346-4010-aa67-77e04add6280
-       meta:
-         os: Ubuntu-20.04
