@@ -8,7 +8,6 @@
        state: present
        name: vm1
        image: "Ubuntu-20.04"
-       key_name: automation-key
        timeout: 200
        flavor: 7c7543ae-ea18-4831-a77a-72721065d178
        auto_ip: no
