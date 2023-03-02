@@ -13,5 +13,6 @@
        flavor: 7c7543ae-ea18-4831-a77a-72721065d178
        auto_ip: no
        network: 39bd5a63-4a33-46bb-86ce-351baeb56d7b
+       security_groups: default
        meta:
          os: ubuntu
