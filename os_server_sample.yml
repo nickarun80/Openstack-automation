@@ -7,13 +7,12 @@
     os_server:
        state: present
        name: vm1
-       image: "auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img"
+       image: "Ubuntu-20.04"
        key_name: automation-key
        timeout: 200
-       flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
+       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
        auto_ip: no
-       network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
-       security_groups: devzero_trust
+       network: 39bd5a63-4a33-46bb-86ce-351baeb56d7b
        meta:
          os: ubuntu
 
@@ -21,12 +20,11 @@
     os_server:
        state: present
        name: vm2
-       image: "centos 7"
+       image: "Ubuntu-20.04"
        key_name: automation-key
        timeout: 200
-       flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
+       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
        auto_ip: no
-       network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
-       security_groups: devzero_trust
+       network: 4617bcd2-1346-4010-aa67-77e04add6280
        meta:
-         os: centos
+         os: Ubuntu-20.04
