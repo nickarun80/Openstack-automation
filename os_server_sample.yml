@@ -6,7 +6,7 @@
   - name: Create a new instance and attaches to a network and passes metadata to the instance
     os_server:
        state: present
-       name: vm1
+       name: Ubuntu-VM-01
        image: "Ubuntu-20.04"
        timeout: 200
        flavor: 7c7543ae-ea18-4831-a77a-72721065d178
@@ -15,3 +15,52 @@
        security_groups: default
        meta:
          os: ubuntu
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: Ubuntu-VM-02
+       image: "Ubuntu-20.04"
+       timeout: 200
+       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
+       auto_ip: no
+       network: 4617bcd2-1346-4010-aa67-77e04add6280
+       security_groups: default
+       meta:
+         os: ubuntu
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: Ubuntu-VM-03
+       image: "Ubuntu-20.04"
+       timeout: 200
+       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
+       auto_ip: no
+       network: 4617bcd2-1346-4010-aa67-77e04add6280
+       security_groups: default
+       meta:
+         os: ubuntu
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: Ubuntu-VM-04
+       image: "Ubuntu-20.04"
+       timeout: 200
+       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
+       auto_ip: no
+       network: 4617bcd2-1346-4010-aa67-77e04add6280
+       security_groups: default
+       meta:
+         os: ubuntu
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: Ubuntu-VM-05
+       image: "Ubuntu-20.04"
+       timeout: 200
+       flavor: 7c7543ae-ea18-4831-a77a-72721065d178
+       auto_ip: no
+       network: 4617bcd2-1346-4010-aa67-77e04add6280
+       security_groups: default
+       meta:
+         os: ubuntu                                    
+
