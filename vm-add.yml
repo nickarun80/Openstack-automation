@@ -2,44 +2,44 @@
 - name: AR-OPS-AUTO
   hosts: localhost
   tasks:
-  - name: VM-4
+  - name: VM-1
     os_server:
        state: present
-       name: vm4
-       image: "Ubuntu-18.04"
+       name: vm1
+       image: "Ubuntu-20.04"
        key_name: AR-AD
        timeout: 200
-       flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+       flavor: 96eede79-68d8-4086-921e-57133de73c2b
        auto_ip: no
-       network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+       network: 7ef4c191-a7dd-4b75-8f9d-31df32b86291
        security_groups: default
        meta:
          os: ubuntu
 
-  - name: VM-5
+  - name: VM-2
     os_server:
        state: present
-       name: vm5
-       image: "Ubuntu-18.04"
+       name: vm3
+       image: "Ubuntu-20.04"
        key_name: AR-AD
        timeout: 200
-       flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+       flavor: 96eede79-68d8-4086-921e-57133de73c2b
        auto_ip: no
-       network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+       network: 7ef4c191-a7dd-4b75-8f9d-31df32b86291
        security_groups: default
        meta:
          os: ubuntu
 
-  - name: VM-5
+  - name: VM-3
     os_server:
        state: present
-       name: vm5
-       image: "Ubuntu-18.04"
+       name: vm3
+       image: "Ubuntu-20.04"
        key_name: AR-AD
        timeout: 200
-       flavor: 387eba78-858d-46f4-83c7-678abc0596e3
+       flavor: 96eede79-68d8-4086-921e-57133de73c2b
        auto_ip: no
-       network: 9d85eea4-50eb-4aba-a12e-0d89de56cb4b
+       network: 7ef4c191-a7dd-4b75-8f9d-31df32b86291
        security_groups: default
        meta:
          os: ubuntu             
