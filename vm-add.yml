@@ -19,7 +19,7 @@
   - name: VM-2
     os_server:
        state: present
-       name: vm3
+       name: vm2
        image: "Ubuntu-20.04"
        key_name: AR-AD
        timeout: 200
