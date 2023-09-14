@@ -1,0 +1,25 @@
+- name: Attach Interface to OpenStack Instance
+  hosts: localhost
+  gather_facts: false
+  vars_prompt:
+    - name: "server_name"
+      prompt: "Enter server name"
+      private: no
+    - name: "network_name"
+      prompt: "Enter network name"
+      private: no
+
+  pre_tasks:
+    - name: Source OpenStack RC file
+      shell: |
+        source /root/openrc
+      args:
+        executable: /bin/bash
+
+  tasks:
+    - name: Attach interface
+      openstack.cloud.server_interface:
+        cloud: mycloud
+        state: present
+        network: "{{ network_name }}"
+        server: "{{ server_name }}"
